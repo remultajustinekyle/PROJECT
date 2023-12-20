@@ -1,12 +1,19 @@
 *{
     scroll-behavior: smooth;
 }
-:root{
-    background-image: url(/img/giphy.gif);
-    size-adjust: 500%;
-    align-content: space-arounds;
-}
 
+body{
+    background-image: url('giphy.gif');
+    background-size: cover;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    word-spacing: 4px;
+    font-size: 25px;
+    color: aliceblue;
+}
 .nayn-h1{
     color: cornflowerblue;
     text-align: center;
@@ -136,7 +143,7 @@ span{
     margin: 0; 
   }
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: hotpink;
+    background-color: darkorange;
   }
   .dropdown-content {
     display: none;
