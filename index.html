@@ -3,27 +3,133 @@
 <head>
     <title>Personal Portfolio</title>
 
-</head>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="./css/ninetine.css">
-<link rel="stylesheet" href="./css/mystyle.css">
+<link rel="stylesheet" href="ninetine.css">
+<link rel="stylesheet" href="mystyle.css">
+</head>
 
 <body>
     <nav>
-        <div class="w3-bar w3-light-grey">
-            <a href="#home" class="w3-bar-item w3-button">Home</a>
-            <a href="#about" class="w3-bar-item w3-button">About</a>
-            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-            <a href="#resume" class="w3-bar-item w3-button">Resume</a>
-            <a href="#contacts" class="w3-bar-item w3-button">Contacts</a>
+        <div class="container">
+            <a href="#" onclick="navigateTo('home')">Home</a>
+            <a href="#" onclick="navigateTo('about')">About</a>
+            <a href="#" onclick="navigateTo('projects')">Projects</a>
+            <a href="#" onclick="navigateTo('resume')">Resume</a>
+            <a href="#" onclick="navigateTo('contacts')">Contacts</a>
         
     </div>
     </nav>
 
+    <main id="home" class="hp"> 
+        <div class="home"> 
+            <h1> Hi, I am <span>  Justine B. Remulta </span></h1>
+            <div class="animate">
+                <h3> Aspiring Web Developer</h3>
+            </div>
+            <nav>
+                <img style="margin-left: 30px;" src="jj.png" alt="jpg">
+            </nav>
+            <h2 style="margin-left: -400px;"> To become a web developer is what I dreamt since I was in Highschool. I get excited by the idea of creating smooth and interesting online experiences as I picture myself diving into the variations of code, design, and problem-solving. The dynamic nature of web development not only appeals to my desire for constant learning but also aligns with my aspiration to contribute meaningfully to the ever-evolving landscape of the internet.  </h2>
+            </div>
+            </div>
+            </section>
+    </main>
+
+    <main id="about">
+        <h1 class="nayn">About Me</h1>
+<p class="nayn-h1"> Hey there! I'm Justine Kyle B. Remulta, an enthusiastic recent graduate with a degree in BSIT. Eager to dive into the world of Web Development, I bring a fresh perspective and a hunger to learn. My goal is to become the best developer in this countr and I'm very excited about the intersection of being a web developer and am ready to contribute my energy and skills to dynamic projects. Let's embark on this journey together as I embark on my career adventure!</p>
+<nav>
+    <img style="margin-left: 500px;" src="received_216863658080587-removebg-preview.png" alt="jpg" class="pic" >
+</nav>
+    </main>
+
+    <main id="projects">
+        <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://github.com/remultajustinekyle/Polymorphism">Polymorphism</a>
+                <a href="https://github.com/remultajustinekyle/FIRST-ITERATION-SPA">Single Page Portfolio</a>
+                <a href="https://github.com/remultajustinekyle/Abstract-">Abstract</a>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <main id="resume" class="res">
+            <h1 class="kyle-h1"> JUSTINE KYLE B. REMULTA</h1>
+            <h2 class="kyle-h2"> 09534597561 / justinekylebarangganremulta@gmail.com</h2>
+            
+            <h3 class="jan-h3"> Personal Data </h3>
+            <ul class="jan-ul"> 
+            <p>Gender:          Female</p>
+            <p>Address:         Tankulan, Manolo Fortich, Bukidnon</p>
+            <p>Age:             21 years old</p>
+            <p>Date of Birth:   July 02, 2002</p>
+            <p>Religion:        Roman Catholic</p>
+            </ul>
+            
+            <h3 class="jan-h3"> Educational Background </h3>
+            <ul class="jan-ul">
+                <p class="tine-p"> Tertiary Education </p>
+                <p> Northern Bukidnon State College </p>
+                <p class="tine-p"> Secondary Education </p>
+                <p> Labinay National High School  </p>
+                <p class="tine-p"> Primary Education </p>
+                <p> Labinay Elementary School </p>
+            </ul>
+            
+            <h3 class="jan-h3"> Skills </h3>
+            <ul class="jan-ul">
+                <li> Good written and communication skills </li>
+                <li> Can work independently and as part of a team </li>
+                <li> Organized and efficient </li>
+            </ul>
+            
+            <h3 class="jan-h3"> Reference </h3>
+            <ul class="jan-ul">
+                <p>Alieza Balles- 0961 080 7251</p>
+                <p>Janine Grace P. Suello- 0953 459 7561</p>
+                <p>Sarah Mae Suyat- 0951 196 0073</p>
+            </ul>
+    </main>
+
+    <main id="contacts">
+        
+<head>
+    <style>
+   .fb{
+       color: aliceblue;
+       font-size: 30px;
+       font-weight: bold;
+       margin-left: 200px;
+       margin-bottom: 500px; 
+   }
+   
+   
+   
+    </style>
+       
+   
+   </head>
+   <body>
+       <div>
+           <h2 style="color: antiquewhite; margin-left: 200px;">Contact Us!</h2>
+           <a class="fb" href="https://www.facebook.com/justine.remulta.5/">Justine Kyle B. Remulta</a>
+           <h1 style="color: antiquewhite; margin-left: 200px;"> 0953 459 7561</h1>
+       </div>
+       <nav>
+           <img style="width: 80px; height: 80px; margin-top: -150px; margin-left: 100px;" src="download.png" alt="jpg">
+       </nav>
+   </body>
+   </head>
+    </main>
+
         <div id="content"></div>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/router.js"></script>
+        <script src="apps.js"></script>
     
 </body>
 </html>
