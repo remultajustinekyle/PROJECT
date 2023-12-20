@@ -23,7 +23,7 @@ body{
     color: white;
     text-align: center;
     margin: 200px;
-    background-image: url(/img/jj.png);
+    background-image: url('jj.png');
 }
 .nayn{
     color: aliceblue;
@@ -32,7 +32,7 @@ body{
 .nayn-ul{
     color: royalblue;
     align-items: center;
-    background-image: url(/img/IMG_20231212_114427__1_-removebg-preview.png) ;
+    background-image: url('IMG_20231212_114427__1_-removebg-preview.png') ;
 }
 .nayn-h2{
     color: darkorange;
@@ -66,7 +66,7 @@ section{
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background-image: url('/img/giphy.gif') ;
+    background-image: url('giphy.gif') ;
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -175,4 +175,11 @@ span{
     height: 500px;
     align-items: center;
  }
+ .fb{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-bottom: 500px; 
+}
   
